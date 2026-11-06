@@ -1,0 +1,11 @@
+name = "mono-os"
+main = "worker/index.js"
+compatibility_date = "2026-11-06"
+[assets]
+directory = "."
+binding = "ASSETS"
+# Add D1 only after authentication is configured.
+# [[d1_databases]]
+# binding = "DB"
+# database_name = "mono-os"
+# database_id = "replace-after-wrangler-d1-create"
